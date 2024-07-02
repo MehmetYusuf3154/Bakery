@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(image/firinarkaplan.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+
+.cs1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    height: 130px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cs2 {
+    display: flex;
+    gap: 20px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+.cs2 p {
+    color: rgba(255, 255, 255, 0.9); 
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cs2 p:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+}
