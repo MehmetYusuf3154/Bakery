@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(image/firinarkaplan.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #000000;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 12px);
+    background-position-y: center;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 360px) {
+    .container {
+    width: 90%;
+    }
+}

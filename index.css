@@ -38,3 +38,33 @@ body {
 .cs2 p:hover {
     background-color: rgba(255, 255, 255, 0.1); 
 }
+.box{
+    width: 30%;
+    height: 290px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+.h1{
+    font-size: 50px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lrm{
+    font-size: 22px;
+    color: white;
+}
+.button{
+    background-color: rgb(135, 104, 4);
+    padding: 23px;
+    border-radius: 20px;
+    color: aliceblue;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+.button:hover {
+    background-color: yellow; 
+    color: black; 
+}

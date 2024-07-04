@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kayıt.css">
+    <title>ORDER INFORMATION</title>
+</head>
+<body>
+    <div class="container">
+        <h2>ORDER INFORMATION</h2>
+        <form action="#">
+        <div>
+            <label for="fname">İsim:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+        </div>
+        <div>
+            <label for="lname">Soyad:</label><br>
+            <input type="text" id="lname" name="lname" required><br>
+        </div>
+        <div>
+            <label for="address">Adres:</label><br>
+            <textarea id="address" name="address" rows="4" required></textarea><br>
+        </div>
+        <div>
+            <label for="payment">Ödeme Yöntemi:</label><br>
+            <select id="payment" name="payment" required>
+            <option value="">Seçiniz</option>
+            <option value="isbankasi">İşbankası</option>
+            <option value="papara">Papara</option>
+            </select><br>
+        </div>
+        <input type="submit" value="Gönder">
+        </form>
+    </div>
+</body>
+</html>
