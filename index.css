@@ -45,7 +45,7 @@ body {
 .box{
     width: 30%;
     height: 290px;
-    margin-left: 60px;
+    margin-left: 260px;
     margin-top: 70px;
 }
 .h1{
@@ -58,8 +58,8 @@ body {
     color: white;
 }
 .button{
-    background-color: rgb(135, 104, 4);
-    padding: 23px;
+    background-color: rgb(97, 78, 17);
+    padding: 27px;
     border-radius: 20px;
     color: aliceblue;
     border: none;
@@ -68,25 +68,30 @@ body {
     transition: background-color 0.3s, color 0.3s;
 
 }
+.button a{
+    text-decoration: none;
+    color:#fff
+}
 .button:hover {
-    background-color: yellow; 
+    background-color: rgb(160, 168, 70); 
     color: black; 
 }
 .menu{ 
 width: 300px;
 height: 300px;
-background-color: gray;
+background-color: rgb(75, 74, 74);
 margin: 10px;
-background: linear-gradient(to bottom, #8B4513, #000000); 
+background: linear-gradient(to bottom, #252424, #252424); 
 transition: background-color 0.3s ease; 
+border-radius: 18px;
 }
 .container2 {
     display: flex;
-    margin-top: 250px;
+    margin-top: 350px;
     margin-left: 250px;
 }
 .menu:hover {
-    background: linear-gradient(to bottom, #bc9d39, #f69f08);
+    background: linear-gradient(to bottom, #b4983c, #958d38);
     transition: background-color 0.2s ease;
 }
 .liv{
@@ -115,7 +120,7 @@ li {
     margin-left: 100px;
 }
 .footer {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 20px 0;
     text-align: center;
